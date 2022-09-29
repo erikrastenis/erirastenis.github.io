@@ -1,0 +1,71 @@
+*{margin: 0;
+padding: 0;
+list-style: none,}
+
+
+#contenedor1{background: red;
+width: 5vw;
+height: 5vw;}
+
+#contenedor2{background: blue;
+    width: 5vw;
+    height: 5vw;
+}
+
+#contenedor3{background: green;
+width: 5vw;
+height: 5vw;}
+
+/*Resolucion para dispositivos moviles muy pequeños*/
+@media(max-widht: 575px){
+    #contenedor1{background: red;
+        width: 80vw;
+        height: 80vw;}
+        
+        #contenedor2{background: blue;
+            width: 80vw;
+            height: 80vw;
+        }
+        
+        #contenedor3{background: green;
+        width: 80vw;
+        height: 80vw;}
+
+}
+
+/* Resolucion para dispositivos moviles pequeños */
+@media(min-widht: 576px) and ( max-widht: 767px){
+    #contenedor1{background: red;
+        width: 5vw;
+        height: 5vw;}
+        
+        #contenedor2{background: blue;
+            width: 5vw;
+            height: 5vw;
+        }
+        
+        #contenedor3{background: green;
+        width: 5vw;
+        height: 5vw;}
+}
+
+/* Resolucion para tablets */
+@media(min-widht: 768px) and (max-widht: 991px){
+    #contenedor1{background: red;
+        width: 5vw;
+        height: 5vw;}
+        
+        #contenedor2{background: blue;
+            width: 5vw;
+            height: 5vw;
+        }
+        
+        #contenedor3{background: green;
+        width: 5vw;
+        height: 5vw;}
+}
+
+/* Resolucion para pc de escritorio */
+@media(min-widht: 992px){
+
+}
